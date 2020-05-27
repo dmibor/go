@@ -7,7 +7,7 @@ package stathat_test
 import (
 	"log"
 
-	stathat "github.com/stathat/go"
+	stathat "github.com/dmibor/go"
 )
 
 func ExamplePostEZCountOne() {
