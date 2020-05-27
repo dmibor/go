@@ -13,7 +13,6 @@ import (
 func ExamplePostEZCountOne() {
 	log.Printf("starting example")
 	stathat.Verbose = true
-
 	err := stathat.PostEZCountOne("go example test run", "nobody@stathat.com")
 	if err != nil {
 		log.Printf("error posting ez count one: %v", err)
